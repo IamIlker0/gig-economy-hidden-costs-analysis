@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# NYC TLC Parquet Files (6-7GB total - TOO LARGE)
+data-processes/NYC-TLC-analysis/data/raw/*.parquet
+data-processes/NYC-TLC-analysis/data/raw/fhvhv_tripdata_*.parquet
+# Any processed large CSV files from NYC analysis
+data-processes/NYC-TLC-analysis/data/processed/*.csv
+nyc_monthly_summaries.csv
+nyc_monthly_summaries_temp.csv
+
+# AAA PDF Files (Not essential for code, can be downloaded separately)
+data-processes/AAA-your-driving-costs/*.pdf
+data-processes/AAA-your-driving-costs/**/*.pdf
+
+# Reddit data is small (150KB) - KEEP IT
+# data-processes/reddit-dataset/  <-- Commented out = will be uploaded
+
+# Large temporary files
+*_temp.csv
+*.xlsx
+
+# Reddit credentials (Security)
+reddit_credentials.json
+.praw.ini
+CLIENT_ID
+CLIENT_SECRET
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep small files but ignore large ones
+!data-processes/AAA-your-driving-costs/aaa_costs.csv
+!data-processes/AAA-your-driving-costs/README.md
+!results/*.json
+!data-samples/

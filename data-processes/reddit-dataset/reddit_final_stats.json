@@ -1,0 +1,13 @@
+{
+  "total_posts": 93,
+  "hourly_rate_posts": 88,
+  "mean_hourly": 25.3,
+  "median_hourly": 21.5,
+  "trimmed_mean": 23.18,
+  "pct_below_15": 21.6,
+  "pct_below_20": 34.1,
+  "outlier_count": 5,
+  "q1": 15.0,
+  "q3": 30.0,
+  "iqr": 15.0
+}

@@ -1,0 +1,8 @@
+{
+  "total_months": 16,
+  "total_trips": 4870911798,
+  "avg_gross_hourly": 60.67,
+  "avg_net_hourly": 51.09,
+  "pct_below_minimum": 0.3,
+  "earnings_reduction_pct": 15.8
+}
